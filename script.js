@@ -21,7 +21,7 @@ const playmachine = () => {
 }
 const deboche = () => {
 
-    const options = ['Ganhei','Ganhei outra vez','Você não se cansa de Perder','Ganhei de novo','Sou um Gênio']
+    const options = ['Ganhei','Penny é você?','Tão inutil como o Howard Wolowitz','Não sou maluco minha mãe me testou','Sou um Gênio']
     const numero = Math.floor(Math.random() * 5);
     return options[numero]
 }
