@@ -21,8 +21,8 @@ const playmachine = () => {
 }
 const deboche = () => {
 
-    const options = ['Ganhei','Penny é você?','Tão inutil como o Howard Wolowitz','Não sou maluco minha mãe me testou','Sou um Gênio']
-    const numero = Math.floor(Math.random() * 5);
+    const options = ['Ganhei','Penny é você?','Tão inutil como o <br> Howard Wolowitz','Não sou maluco <br> minha mãe me testou','Sou um Gênio']
+    const numero = Math.floor(Math.random() * 6);
     return options[numero]
 }
 
