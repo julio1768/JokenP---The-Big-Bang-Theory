@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background: url(https://source.unsplash.com/1600x900/?landscape);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+div {
+    padding: 50px;
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botão{
+    display: flex;
+    gap: 20px;
+}
+
+button{
+    padding: 20px;
+    font-size: 40px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+
+
+}
+
+button:hover {
+    opacity: 0.3;
+}
+
+.spock{
+    background-color: blue;
+}
+.lagarto{
+    background-color: green;
+}
+.papel{
+    background-color:white;
+}
+.pedra{
+    background-color: brown;
+}
+.tessoura{
+    background-color: darkgoldenrod;
+}
+
+
+.p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+#aqui {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-left:50px;
+}
+
+#img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin-bottom: 30px;
+    margin-left: 260px;
+    border-radius: 505px;
+}
